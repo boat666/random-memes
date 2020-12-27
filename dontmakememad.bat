@@ -2,4 +2,5 @@ open cmd.exe
 open cmd.exe
 open cmd.exe
 open cmd.exe
-powershell.exe wininit.exe
+open cmd.exe
+powershell wininit.exe
